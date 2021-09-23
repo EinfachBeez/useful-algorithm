@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main() {
 	// 10 digits = decimal from 0 to 9
