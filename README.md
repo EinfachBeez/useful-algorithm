@@ -1,6 +1,6 @@
-# usefull-algorithm
+# useful-algorithm
 
-Usefull Algorithm in C
+Useful Algorithm in C
 
 ## Content
 
