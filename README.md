@@ -12,7 +12,7 @@ Usefull Algorithm in C
 
 #### Decimal to Binary
 
-The system behind it is relatively simple. 
+The system behind is relatively simple. 
 To get the binary numbers, you just have to divide the decimal number until you get a result of 0. 
 The remainder reflects the binary numbers, but which are read from the last division to the first division.
 
