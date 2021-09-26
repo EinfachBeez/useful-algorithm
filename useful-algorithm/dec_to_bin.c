@@ -1,11 +1,12 @@
 #include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS // avoid windows compiler warnings
 
 int main() {
 	// 10 digits = decimal from 0 to 9
 	int dec[10], i, k;
 
 	printf("Decimal Input: ");
-	scanf_s("%d", &k);
+	scanf("%d", &k);
 	
 	// until the number is greater than 0
 	for (i = 0; k > 0; i++) {
