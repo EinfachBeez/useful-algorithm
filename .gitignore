@@ -1,6 +1,3 @@
-useful-algorithm/.vs
-useful-algorithm/useful-algorithm.sln
-useful-algorithm/useful-algorithm.vcxproj
-useful-algorithm/useful-algorithm.vcxproj.filters
-useful-algorithm/useful-algorithm.vcxproj.user
-useful-algorithm/Debug
+CMakeLists.txt
+cmake-build-debug
+.idea
