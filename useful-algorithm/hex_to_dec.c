@@ -11,16 +11,17 @@ int main() {
     printf("Heximal Input: ");
     scanf("%s", hex);
 
+    // take last char of hex && initialize n with strlen(hex) - 1
     for (i = strlen(hex) - 1; i >= 0; --i) {
-
+        // check if hex place is a number or a string
         if (hex[i] >= '0' && hex[i] <= '9') {
-            k = hex[i] - '0';
+            k = hex[i] - '0'; //
         }
         else {
-            k = hex[i] - 'A' + 10;
+            k = hex[i] - 'A' + 10; // convert hex string to dec
         }
 
-        dec += k * pow(16, n);
+        dec += k * pow(16, n); //
         ++n;
     }
 
